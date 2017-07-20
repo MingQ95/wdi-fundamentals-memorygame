@@ -65,6 +65,14 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-family: Raleway;
+  color: #0D2C40;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
 p {
   font-family: "Droid Serif";
   line-height: 26px;
@@ -73,6 +81,20 @@ p {
 
 img {
   margin: 40px 8px 0 8px;
+}
+
+button {
+  font-family: Raleway;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 30px 0 0 0;
+  color: white;
+  border: none;
+  background: #F15B31;
+}
+
+button:hover {
+  background: #00A6B3;
 }
 
 .copyright {
@@ -89,6 +111,15 @@ img {
 }
 
 .clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.board clearfix:after {
   visibility: hidden;
   display: block;
   content: " ";
